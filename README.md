@@ -5,14 +5,8 @@ Create audio visualizations for your music.
 
 ```
 git clone https://github.com/MethodBlack/birdie.git
-yarn install-ffmpeg
 yarn install
-```
-
-### Build
-
-```
-yarn build
+yarn install-ffmpeg
 ```
 
 ### Start
@@ -23,11 +17,11 @@ yarn start
 
 ## Running
 
-Instead of `yarn build` above, run `yarn dev`. This will start up a development server
-in the current console window.
+Start a development server in the current console: `yarn dev`
+Run an application in a separate console: `yarn start`.
 
-Then, in a separate console window, run `yarn start`.
+### Build
 
-## License
-
-MIT
+```
+yarn build
+```
