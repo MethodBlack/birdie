@@ -1,14 +1,14 @@
 {
-  "name": "astrofox",
-  "version": "1.4.0",
-  "productName": "Astrofox",
-  "description": "Audio reactive motion graphics program",
-  "author": "Mike Cao <mike@mikecao.com>",
+  "name": "birdie",
+  "version": "0.1.0",
+  "productName": "Birdie",
+  "description": "Create audio visualizations for your music.",
+  "author": "Method Black <contact@new-ui.com>",
   "license": "MIT",
-  "homepage": "https://astrofox.io",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/astrofox-io/astrofox"
+    "url": "https://github.com/MethodBlack/birdie"
   },
   "main": "app/main.js",
   "scripts": {
@@ -36,8 +36,8 @@
     "install-ffmpeg": "node ./scripts/install-ffmpeg.js"
   },
   "build": {
-    "appId": "io.astrofox.app",
-    "productName": "Astrofox",
+    "appId": "io.birdie.app",
+    "productName": "Birdie",
     "asar": true,
     "files": [
       "**/*",
@@ -52,7 +52,7 @@
     ],
     "publish": {
       "provider": "generic",
-      "url": "https://files.astrofox.io/download",
+      "url": "",
       "channel": "latest"
     },
     "dmg": {
