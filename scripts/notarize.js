@@ -7,8 +7,8 @@ const { APPLEID, APPLEIDPASS } = process.env;
   console.log('Staring notarize...');
 
   await notarize({
-    appBundleId: 'io.astrofox.app',
-    appPath: 'dist/mac/Astrofox.app',
+    appBundleId: 'birdie.app',
+    appPath: 'dist/mac/Birdie.app',
     appleId: APPLEID,
     appleIdPassword: APPLEIDPASS,
   });
