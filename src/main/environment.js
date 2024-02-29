@@ -4,7 +4,7 @@ import { app } from 'electron';
 
 const version = app.getVersion();
 
-export const APP_NAME = 'Astrofox';
+export const APP_NAME = 'Birdie';
 export const APP_VERSION = version;
 export const APP_PATH = app.getAppPath();
 export const OS_PLATFORM = os.platform();
