@@ -76,7 +76,7 @@ export function createWindow() {
     const view = new BrowserView();
     win.setBrowserView(view);
     view.setBounds({ x: 0, y: 0, width: 0, height: 0 });
-    view.webContents.loadURL('https://astrofox.io/hello');
+    view.webContents.loadURL('https://birdie.page/hello');
   }
 
   // Load index page

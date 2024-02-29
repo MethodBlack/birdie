@@ -34,6 +34,6 @@ const download = async (url, file) => {
 };
 
 const [dir, file] = files[platform];
-const url = `https://files.astrofox.io/ffmpeg/${dir}/${file}`;
+const url = `https://birdie.page/ffmpeg/${dir}/${file}`;
 
 download(url, file);
