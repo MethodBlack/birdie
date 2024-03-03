@@ -1,9 +1,9 @@
 .statusBar {
   display: flex;
-  color: var(--text100);
-  background-color: var(--primary100);
+  color: var(--text-primary);
+  background-color: var(--background);
   font-size: 11px;
-  padding: 0 20px;
+  padding: 0 var(--spacing-07);
   cursor: default;
   white-space: nowrap;
   z-index: var(--z-index-above);
@@ -38,12 +38,12 @@
   width: 33%;
 
   .item {
-    margin-left: 20px;
+    margin-left: var(--spacing-07);
   }
 }
 
 .itemButton {
-  padding: 0 8px;
+  padding: 0 var(--spacing-04);
 
   &:hover {
     background-color: var(--primary200);
